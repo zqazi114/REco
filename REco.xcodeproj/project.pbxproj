@@ -7,23 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143A2045BBA6C8E68650B331 /* Pods_REco.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7AED194F7DC6687A64D84B /* Pods_REco.framework */; };
 		9648AFBD21A4CF8A00A00772 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9648AFBC21A4CF8A00A00772 /* AppDelegate.swift */; };
-		9648AFBF21A4CF8A00A00772 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9648AFBE21A4CF8A00A00772 /* ViewController.swift */; };
+		9648AFBF21A4CF8A00A00772 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9648AFBE21A4CF8A00A00772 /* FeedViewController.swift */; };
 		9648AFC221A4CF8A00A00772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9648AFC021A4CF8A00A00772 /* Main.storyboard */; };
 		9648AFC521A4CF8A00A00772 /* REco.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9648AFC321A4CF8A00A00772 /* REco.xcdatamodeld */; };
 		9648AFC721A4CF8C00A00772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9648AFC621A4CF8C00A00772 /* Assets.xcassets */; };
 		9648AFCA21A4CF8C00A00772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9648AFC821A4CF8C00A00772 /* LaunchScreen.storyboard */; };
+		9648AFF921A52BC100A00772 /* recycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9648AFF821A52BC100A00772 /* recycle.png */; };
+		96AE518721A52DB900F90227 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AE518621A52DB900F90227 /* FeedView.swift */; };
+		96AE518921A5AC7800F90227 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AE518821A5AC7800F90227 /* Globals.swift */; };
+		96FEAC1021D166EC00529FF4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEAC0F21D166EC00529FF4 /* MapViewController.swift */; };
+		96FEAC1521D16E1700529FF4 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEAC1421D16E1700529FF4 /* Map.swift */; };
+		96FEAC1921D171B600529FF4 /* overlay.json in Resources */ = {isa = PBXBuildFile; fileRef = 96FEAC1821D171B600529FF4 /* overlay.json */; };
+		96FEAC1D21D185BE00529FF4 /* MapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEAC1C21D185BE00529FF4 /* MapModel.swift */; };
+		96FEAC1F21D185C900529FF4 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEAC1E21D185C900529FF4 /* MapView.swift */; };
+		96FEAC2121D1877700529FF4 /* YelpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEAC2021D1877700529FF4 /* YelpManager.swift */; };
+		96FEAC2321D189D100529FF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEAC2221D189D100529FF4 /* ViewController.swift */; };
+		96FEAC2521D18B6F00529FF4 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEAC2421D18B6F00529FF4 /* ErrorView.swift */; };
+		96FEAC2721D18CCB00529FF4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96FEAC2621D18CCB00529FF4 /* GoogleService-Info.plist */; };
+		96FEAC2921D587FA00529FF4 /* FeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEAC2821D587FA00529FF4 /* FeedModel.swift */; };
+		96FEAC2B21D58C5E00529FF4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEAC2A21D58C5E00529FF4 /* TabBarController.swift */; };
+		96FEAC2D21D5AEE200529FF4 /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 96FEAC2C21D5AEE200529FF4 /* logo.gif */; };
+		96FEAC2F21D5C96B00529FF4 /* RecoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEAC2E21D5C96B00529FF4 /* RecoViewController.swift */; };
+		96FEAC3121D5C97D00529FF4 /* RecoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEAC3021D5C97D00529FF4 /* RecoView.swift */; };
+		96FEAC3321D5C98800529FF4 /* RecoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEAC3221D5C98800529FF4 /* RecoModel.swift */; };
+		96FEAC3521D5D94900529FF4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEAC3421D5D94900529FF4 /* ProfileViewController.swift */; };
+		96FEAC3721D5D95600529FF4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEAC3621D5D95600529FF4 /* ProfileView.swift */; };
+		96FEAC3921D5D96200529FF4 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FEAC3821D5D96200529FF4 /* ProfileModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A7AED194F7DC6687A64D84B /* Pods_REco.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_REco.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9648AFB921A4CF8A00A00772 /* REco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REco.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9648AFBC21A4CF8A00A00772 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9648AFBE21A4CF8A00A00772 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9648AFBE21A4CF8A00A00772 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		9648AFC121A4CF8A00A00772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9648AFC421A4CF8A00A00772 /* REco.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = REco.xcdatamodel; sourceTree = "<group>"; };
 		9648AFC621A4CF8C00A00772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9648AFC921A4CF8C00A00772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9648AFCB21A4CF8C00A00772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9648AFF821A52BC100A00772 /* recycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recycle.png; sourceTree = "<group>"; };
+		96AE518621A52DB900F90227 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		96AE518821A5AC7800F90227 /* Globals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		96FEAC0F21D166EC00529FF4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		96FEAC1421D16E1700529FF4 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		96FEAC1821D171B600529FF4 /* overlay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = overlay.json; sourceTree = "<group>"; };
+		96FEAC1C21D185BE00529FF4 /* MapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModel.swift; sourceTree = "<group>"; };
+		96FEAC1E21D185C900529FF4 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		96FEAC2021D1877700529FF4 /* YelpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpManager.swift; sourceTree = "<group>"; };
+		96FEAC2221D189D100529FF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96FEAC2421D18B6F00529FF4 /* ErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		96FEAC2621D18CCB00529FF4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		96FEAC2821D587FA00529FF4 /* FeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedModel.swift; sourceTree = "<group>"; };
+		96FEAC2A21D58C5E00529FF4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		96FEAC2C21D5AEE200529FF4 /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo.gif; sourceTree = "<group>"; };
+		96FEAC2E21D5C96B00529FF4 /* RecoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoViewController.swift; sourceTree = "<group>"; };
+		96FEAC3021D5C97D00529FF4 /* RecoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoView.swift; sourceTree = "<group>"; };
+		96FEAC3221D5C98800529FF4 /* RecoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoModel.swift; sourceTree = "<group>"; };
+		96FEAC3421D5D94900529FF4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		96FEAC3621D5D95600529FF4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		96FEAC3821D5D96200529FF4 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		A416363FA44F55EE07751459 /* Pods-REco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REco.debug.xcconfig"; path = "Pods/Target Support Files/Pods-REco/Pods-REco.debug.xcconfig"; sourceTree = "<group>"; };
+		A7473CB0A41C5C4359557559 /* Pods-REco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REco.release.xcconfig"; path = "Pods/Target Support Files/Pods-REco/Pods-REco.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +77,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				143A2045BBA6C8E68650B331 /* Pods_REco.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2560019B420B1ABFB8D296DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AED194F7DC6687A64D84B /* Pods_REco.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57E4990707ED6EFB8972DD7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A416363FA44F55EE07751459 /* Pods-REco.debug.xcconfig */,
+				A7473CB0A41C5C4359557559 /* Pods-REco.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9648AFB021A4CF8A00A00772 = {
 			isa = PBXGroup;
 			children = (
 				9648AFBB21A4CF8A00A00772 /* REco */,
 				9648AFBA21A4CF8A00A00772 /* Products */,
+				57E4990707ED6EFB8972DD7E /* Pods */,
+				2560019B420B1ABFB8D296DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +122,76 @@
 		9648AFBB21A4CF8A00A00772 /* REco */ = {
 			isa = PBXGroup;
 			children = (
+				9648AFF721A52BA800A00772 /* Assets */,
+				9648AFD121A4CF9500A00772 /* Model */,
+				9648AFD221A4CFA300A00772 /* View */,
+				9648AFD321A4CFA800A00772 /* Controller */,
 				9648AFBC21A4CF8A00A00772 /* AppDelegate.swift */,
-				9648AFBE21A4CF8A00A00772 /* ViewController.swift */,
+				96AE518821A5AC7800F90227 /* Globals.swift */,
 				9648AFC021A4CF8A00A00772 /* Main.storyboard */,
-				9648AFC621A4CF8C00A00772 /* Assets.xcassets */,
 				9648AFC821A4CF8C00A00772 /* LaunchScreen.storyboard */,
+				9648AFC621A4CF8C00A00772 /* Assets.xcassets */,
 				9648AFCB21A4CF8C00A00772 /* Info.plist */,
+				96FEAC2621D18CCB00529FF4 /* GoogleService-Info.plist */,
 				9648AFC321A4CF8A00A00772 /* REco.xcdatamodeld */,
 			);
 			path = REco;
+			sourceTree = "<group>";
+		};
+		9648AFD121A4CF9500A00772 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96FEAC3821D5D96200529FF4 /* ProfileModel.swift */,
+				96FEAC3221D5C98800529FF4 /* RecoModel.swift */,
+				96FEAC1C21D185BE00529FF4 /* MapModel.swift */,
+				96FEAC2821D587FA00529FF4 /* FeedModel.swift */,
+				96FEAC2021D1877700529FF4 /* YelpManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9648AFD221A4CFA300A00772 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96FEAC3621D5D95600529FF4 /* ProfileView.swift */,
+				96FEAC3021D5C97D00529FF4 /* RecoView.swift */,
+				96FEAC1E21D185C900529FF4 /* MapView.swift */,
+				96AE518621A52DB900F90227 /* FeedView.swift */,
+				96FEAC1421D16E1700529FF4 /* Map.swift */,
+				96FEAC2421D18B6F00529FF4 /* ErrorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9648AFD321A4CFA800A00772 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				96FEAC3421D5D94900529FF4 /* ProfileViewController.swift */,
+				96FEAC2E21D5C96B00529FF4 /* RecoViewController.swift */,
+				96FEAC0F21D166EC00529FF4 /* MapViewController.swift */,
+				9648AFBE21A4CF8A00A00772 /* FeedViewController.swift */,
+				96FEAC2221D189D100529FF4 /* ViewController.swift */,
+				96FEAC2A21D58C5E00529FF4 /* TabBarController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9648AFF721A52BA800A00772 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				96FEAC1221D16D8C00529FF4 /* JSON */,
+				96FEAC2C21D5AEE200529FF4 /* logo.gif */,
+				9648AFF821A52BC100A00772 /* recycle.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		96FEAC1221D16D8C00529FF4 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				96FEAC1821D171B600529FF4 /* overlay.json */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9648AFCE21A4CF8C00A00772 /* Build configuration list for PBXNativeTarget "REco" */;
 			buildPhases = (
+				3F4540FF2B1B305CEDCBB6F8 /* [CP] Check Pods Manifest.lock */,
 				9648AFB521A4CF8A00A00772 /* Sources */,
 				9648AFB621A4CF8A00A00772 /* Frameworks */,
 				9648AFB721A4CF8A00A00772 /* Resources */,
+				303E5336952A3B85764DE6B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +254,102 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96FEAC1921D171B600529FF4 /* overlay.json in Resources */,
 				9648AFCA21A4CF8C00A00772 /* LaunchScreen.storyboard in Resources */,
+				96FEAC2D21D5AEE200529FF4 /* logo.gif in Resources */,
+				9648AFF921A52BC100A00772 /* recycle.png in Resources */,
 				9648AFC721A4CF8C00A00772 /* Assets.xcassets in Resources */,
 				9648AFC221A4CF8A00A00772 /* Main.storyboard in Resources */,
+				96FEAC2721D18CCB00529FF4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		303E5336952A3B85764DE6B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-REco/Pods-REco-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MapKitGoogleStyler/MapKitGoogleStyler.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyGif/SwiftyGif.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MapKitGoogleStyler.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyGif.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-REco/Pods-REco-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F4540FF2B1B305CEDCBB6F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-REco-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9648AFB521A4CF8A00A00772 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96AE518721A52DB900F90227 /* FeedView.swift in Sources */,
+				96FEAC1D21D185BE00529FF4 /* MapModel.swift in Sources */,
+				96FEAC1021D166EC00529FF4 /* MapViewController.swift in Sources */,
 				9648AFC521A4CF8A00A00772 /* REco.xcdatamodeld in Sources */,
-				9648AFBF21A4CF8A00A00772 /* ViewController.swift in Sources */,
+				96FEAC1521D16E1700529FF4 /* Map.swift in Sources */,
+				96FEAC2121D1877700529FF4 /* YelpManager.swift in Sources */,
+				96FEAC3521D5D94900529FF4 /* ProfileViewController.swift in Sources */,
+				96FEAC2321D189D100529FF4 /* ViewController.swift in Sources */,
+				9648AFBF21A4CF8A00A00772 /* FeedViewController.swift in Sources */,
+				96FEAC2921D587FA00529FF4 /* FeedModel.swift in Sources */,
+				96FEAC1F21D185C900529FF4 /* MapView.swift in Sources */,
+				96AE518921A5AC7800F90227 /* Globals.swift in Sources */,
+				96FEAC2B21D58C5E00529FF4 /* TabBarController.swift in Sources */,
+				96FEAC2521D18B6F00529FF4 /* ErrorView.swift in Sources */,
+				96FEAC3321D5C98800529FF4 /* RecoModel.swift in Sources */,
+				96FEAC3921D5D96200529FF4 /* ProfileModel.swift in Sources */,
+				96FEAC3121D5C97D00529FF4 /* RecoView.swift in Sources */,
+				96FEAC3721D5D95600529FF4 /* ProfileView.swift in Sources */,
 				9648AFBD21A4CF8A00A00772 /* AppDelegate.swift in Sources */,
+				96FEAC2F21D5C96B00529FF4 /* RecoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +493,7 @@
 		};
 		9648AFCF21A4CF8C00A00772 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A416363FA44F55EE07751459 /* Pods-REco.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +512,7 @@
 		};
 		9648AFD021A4CF8C00A00772 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7473CB0A41C5C4359557559 /* Pods-REco.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

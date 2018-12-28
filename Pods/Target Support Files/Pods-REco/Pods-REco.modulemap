@@ -1,0 +1,6 @@
+framework module Pods_REco {
+  umbrella header "Pods-REco-umbrella.h"
+
+  export *
+  module * { export * }
+}
